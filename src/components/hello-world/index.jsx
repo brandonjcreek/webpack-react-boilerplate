@@ -1,9 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import style from './hello-world.css';
+import Header from '../elements/Header';
+import H1 from '../elements/H1';
 
 const HelloWorld = props => (
-  <div className={style['hello-world']}>{props.title}</div>
+  <Header>
+    <H1 color="#fff" weight="300">
+      {props.title}
+    </H1>;
+  </Header>
 );
 
 HelloWorld.propTypes = {

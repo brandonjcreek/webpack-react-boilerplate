@@ -12,6 +12,7 @@
     "fetch": true
   },
   "rules": {
+    "linebreak-style": 0,
     "indent": ["error", 2],
     "react/prefer-stateless-function": "warn",
     "react/self-closing-comp": [
